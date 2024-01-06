@@ -1,0 +1,65 @@
+.config {
+  font-family: "Poppins", sans-serif;
+  padding: 0px 50px 0px 25px;
+  max-width: 1440px;
+  margin: auto;
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+}
+
+.canvas {
+  height: 750px;
+  max-width: 100%;
+  /* width: 100%; */
+  max-width: 500px;
+  width: 100%;
+  /* background-color: rgb(240, 240, 240); */
+}
+
+.canvas div:nth-child(2) {
+  padding: 2px 12.5px;
+  border: 1px solid rgb(168, 168, 168);
+  width: max-content;
+  border-radius: 0 12.5px 0px 0;
+}
+
+.config-cont {
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+}
+
+.config-subcont {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  max-width: 600px;
+  width: 100%;
+}
+
+.config-catg-cont {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.config-catg {
+  display: flex;
+  gap: 8px;
+}
+
+.config-catg div {
+  padding: 2.5px 10px;
+  border: 1px solid black;
+  border-radius: 2px;
+  cursor: pointer;
+  width: max-content;
+  /* text-align: center; */
+}
+
+
+.config-catg div:hover {
+  background-color: black;
+  color: white;
+}
